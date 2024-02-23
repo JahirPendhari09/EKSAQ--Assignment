@@ -49,7 +49,7 @@ The application is deployed on cyclic and can be accessed [here](https://drab-pl
    # How to Run Backend<br/>
    <h2>Installation</h2>
    
-   Clone the repository:   ``` git clone https://github.com/JahirPendhari09/EKSAQ--Assignment.git ``` <br/>
+   Clone the repository:   ``` git clone https://github.com/JahirPendhari09/EKSAQ-Assignment-backend.git ``` <br/>
    Navigate to the project directory:   ``` cd backend ``` <br/>
    Install the dependencies:   ``` npm install ``` <br/>
    Start the development server:   ``` npm run server ``` <br/>
