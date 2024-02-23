@@ -1,0 +1,170 @@
+/* Base styles */
+.App {
+  text-align: center;
+}
+
+.speechBox {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+}
+
+.singleSpeech {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.singleSpeech > p {
+  width: 100%;
+  text-align: left;
+  color: rgb(50, 16, 82);
+}
+
+.btn {
+  width: 60px;
+  background-color: green;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.mainBox {
+  margin-top: 50px;
+}
+
+.audioContainer {
+  width: 500px;
+  margin: auto;
+}
+
+textarea {
+  width: 480px;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+button {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.allBTNS {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.recordBtn {
+  width: 100px;
+  background-color: red;
+  outline: none;
+  border: none;
+}
+h1 {
+  color: blue;
+  width: 400px;
+  position: relative;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+h1::after {
+  content: "";
+  position:absolute;
+  bottom: 0;
+  left: 20px;
+  height: 3px;
+  width: 0%;
+  background-color: #c42020;
+  transition: all ease 2s;
+}
+
+h1:hover::after {
+  width: 80%;
+}
+.stopBtn {
+  width: 70px;
+  background-color: blue;
+  outline: none;
+  border: none;
+}
+
+.addAudioBtn {
+  width: 100px;
+  background-color: orange;
+  outline: none;
+  border: none;
+}
+
+/* Media Queries */
+@media (max-width: 450px) {
+  .singleSpeech {
+    width: 90%;
+    margin: auto;
+  }
+
+  textarea {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .h1 {
+    height: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+  .allBTNS {
+    width: 90%;
+    margin: auto;
+  }
+
+  .recordBtn {
+    width: 80px;
+  }
+
+  .stopBtn {
+    width: 50px;
+  }
+
+  .addAudioBtn {
+    width: 80px;
+  }
+}
+
+@media (max-width: 780px) {
+  .singleSpeech {
+    width: 90%;
+    margin: auto;
+  }
+
+  textarea {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .allBTNS {
+    width: 90%;
+    margin: auto;
+  }
+}
