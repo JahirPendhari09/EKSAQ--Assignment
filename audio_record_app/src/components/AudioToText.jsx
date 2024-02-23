@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { SpeakToText } from "./SpeakToText";
 import { useDispatch } from "react-redux";
-import { postSpeeche } from "../redux/action";
+import { postSpeech } from "../redux/action";
 import '../App.css';
 const SpeechRecognition =
     window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -45,7 +45,7 @@ const AudioToText = () => {
             speech: value,
             date: new Date()
         }
-        dispatch(postSpeeche(newSpeech))
+        dispatch(postSpeech(newSpeech))
         setRender(!render);
         setValue("");
     };
