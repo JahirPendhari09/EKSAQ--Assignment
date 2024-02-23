@@ -31,6 +31,8 @@ Express is a web application framework for Node.js. It simplifies the process of
 
 ## Deployment
 
+Due to some reasone my backend code is not showing my backend repo [here](https://github.com/JahirPendhari09/EKSAQ-Assignment-backend)
+
 The application is deployed on cyclic and can be accessed [here](https://drab-plum-boa-yoke.cyclic.app/).
 
 
